@@ -2,9 +2,9 @@ import { useState } from "react"
 import {AddCategory, GifGrid} from "./components";
 
 
-const GiftExpertApp = () => {
+export const GiftExpertApp = () => {
 
-  const [categories, setCategories] = useState(['Pokémon', 'Dragon Ball']);
+  const [categories, setCategories] = useState(['Dragon Ball']);
 
   const onAddCategory = (newCategory) => {
 
@@ -15,8 +15,8 @@ const GiftExpertApp = () => {
   return (
     <>
       {/* Titulo */}
-      <h1>Gift Toshi App</h1>
-      <p>Solo se mostraran 4 gifs</p>
+      <h1>Gift Search App</h1>
+      <p>Solo se mostrarán 10 GIFs</p>
       {/* Input */}
       <AddCategory
         onNewCategory={value => onAddCategory(value)}

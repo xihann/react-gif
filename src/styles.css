@@ -17,6 +17,12 @@
     padding: 10px 15px;
     width: 100%;
   }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+  }
   
   h2 {
     font-size: 1.5rem;

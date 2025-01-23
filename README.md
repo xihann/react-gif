@@ -8,3 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # App de gif 
+# Para los test
+cambiar el nombre del archivo jest.config.js a jest.config.cjs, y el archivo de babel tambien (babel.config.cjs)
